@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: { name: user-service-config, namespace: msa }
+data:
+  DB_HOST: userdb
+  DB_PORT: "5432"
+  DB_NAME: userdb
